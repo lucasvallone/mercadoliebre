@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/favicon/icon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:ital,wght@0,300;1,300&family=Smooch&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <title>Mercado Liebre</title>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="lyb">
+            <a href="home"> <img src="/images/logo.svg" class="logo"></a>
+            <div class="c2">
+                <input class="search1" list="datalistOptions" id="exampleDataList"
+                    placeholder="Buscar productos, marcas y mas..."><i class="fa-solid fa-magnifying-glass lupa"></i>
+            </div>
+            <h2 class="a">
+                <i class="fas fa-hand-holding-usd"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </h2>
+        </div>
+        <div class="hb">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="nav">
+            <ul class="nv1">
+                <li><a href="ofertas">Ofertas</a></li>
+                <li><a href="Tiendas_oficiales">Tiendas Oficiales</a></li>
+                <li><a href="Vender">Vender</a></li>
+                <li><a href="ayuda">Ayuda</a></li>
+            </ul>
+
+            <ul class="nv2">
+                <li><a href="register">Creá tu Cuenta</a><i class="far fa-id-card"></i></li>
+                <li><a href="login">Ingresa</a><i class="fas fa-sign-in-alt"></i></li>
+                <li><a href="Mis_compras">Mis Compras</a><i class="fas fa-shopping-basket"></i></li>
+            </ul>
+
+        </div>
+
+    </header>
+    <main class="reg">
+        <div class="registro">
+            <form action="home.html" method="POST">
+                <ul>
+                    <li>
+                        <input type="text" id="name" name="name" placeholder="Nombre y apellido" required>
+                    </li>
+                    <li>
+                        <input type="text" id="usuario" name="user" placeholder="Nombre de Usuario" required>
+                    </li>
+                    <li>
+                        <input type="password" id="password" name="password" placeholder="Contraseña" required>
+                    </li>
+                    <li>
+                        <input type="email" id="mail" name="mail" placeholder="Correo electronico" required>
+                    </li>
+
+                    <li>
+                        <input type="text" id="domicilio" name="domicilio" placeholder="Domicilio">
+                    </li>
+
+                    <li>
+                        <input type="date" id="date" name="date" placeholder="Fecha de nacimiento">
+                    </li>
+            </form>
+            <h3 class=" h31">Perfil Del Usuario</h3>
+
+            <div class="perfil">
+                <div>
+                    <input type="radio" id="comprador" name="perfil" value="Comprador">
+                    <label for="perfil">Comprador</label>
+                </div>
+                <div class="vend">
+                    <input type="radio" id="Vendedor" name="perfil" value="Vendedor">
+                    <label for="perfil">Vendedor</label>
+                </div>
+            </div>
+            <h3 class="h31">Intereses</h3>
+            <div class="int">
+                <div class="ckb">
+                    <input type="checkbox" id="electro" value="electro">
+                    <label for="electro">Electro</label>
+                </div>
+                <div class="ckb">
+                    <input type="checkbox" id="Moda" value="Moda">
+                    <label for="moda">Moda</label>
+                </div>
+                <div class="ckb">
+                    <input type="checkbox" id="Hogar" value="Hogar">
+                    <label for="Hogar">Hogar</label>
+                </div>
+                <div class="ckb">
+                    <input type="checkbox" id="Juguetería" value="Juguetería">
+                    <label for="Juguetería">Juguetería</label>
+                </div>
+                <div class="ckb">
+                    <input type="checkbox" id="Vida sana" value="Vida sana">
+                    <label for="vida sana">Vida sana</label>
+                </div>
+
+                <button class="enviar" url="/home.html">Registrar</button>
+            </div>
+        </div>
+    </main>
+</body>
