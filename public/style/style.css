@@ -7,6 +7,7 @@
 .asd1 {
     display: flex;
 
+
 }
 
 
@@ -153,7 +154,7 @@ main {
     display: flex;
     flex-direction: column;
     border: #ebebeb 14px solid;
-    box-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 5px black;
 
 }
 
@@ -215,7 +216,7 @@ main {
 }
 
 .c1:hover {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    box-shadow: 0px 0px 10px rgb(31, 31, 31);
     display: flex;
     transition: 1s;
 }
@@ -327,6 +328,7 @@ footer {
         display: flex;
         flex-direction: column;
         border: #ebebeb 14px solid;
+        box-shadow: 0px 0px 4px black;
     }
 
     /*main*/
@@ -343,6 +345,7 @@ footer {
         margin: 25px auto;
         background: white;
         max-width: 368px;
+        box-shadow: 0px 0px 4px black;
     }
 
     .c1:hover {
@@ -394,6 +397,7 @@ footer {
         background: white;
         max-width: 368px;
         border: #ebebeb 14px solid;
+        box-shadow: 0px 0px 4px black;
     }
 
     .c1:hover {
@@ -433,7 +437,7 @@ footer {
 }
 
 .c1 {
-
+    box-shadow: 0px 0px 4px black;
     display: flex;
     flex-direction: column;
 }
