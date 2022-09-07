@@ -54,7 +54,7 @@ img {
 
 .search1 {
     width: 100%;
-    height: auto;
+    height: 40px;
     max-width: 400px;
     display: flex;
     flex-wrap: wrap;
