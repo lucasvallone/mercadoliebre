@@ -528,6 +528,18 @@ ul li {
     max-width: max-content;
 }
 
+.enviar1{
+    background-color: #4b4b4b;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.enviar1:hover{
+    background-color: #0022AA
+}
+
 .enviar {
     background-color: #0550a0;
     color: #FFF;
