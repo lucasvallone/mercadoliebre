@@ -142,7 +142,7 @@ input {
 
 /*main*/
 main {
-    background-color: gainsboro;
+    background-color: #ebebeb;
     width: 90%;
     margin: 0 auto;
 }
@@ -257,6 +257,11 @@ footer {
     font-size: 30px;
 }
 
+.fo1 {
+    display: flex;
+    padding: 15vh;
+    flex-wrap: wrap;
+}
 
 @media only screen and (min-width: 768px) {
 
@@ -436,6 +441,7 @@ footer {
 .fo1 {
     display: flex;
     padding: 15vh;
+
 }
 
 /*footer*/
