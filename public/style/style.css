@@ -13,7 +13,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #ebebeb;
+    background: gainsboro;
 }
 
 /* header*/
@@ -142,7 +142,7 @@ input {
 
 /*main*/
 main {
-    background-color: #ebebeb;
+    background-color: gainsboro;
     width: 90%;
     margin: 0 auto;
 }
